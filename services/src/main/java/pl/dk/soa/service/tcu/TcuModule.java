@@ -9,9 +9,7 @@ import pl.dk.soa.service.ecu.response.ThrottleResponse;
 import pl.dk.soa.service.sensors.response.VssResponse;
 import pl.dk.soa.service.sensors.response.WssResponse;
 
-import static java.lang.Math.PI;
-import static java.lang.Math.max;
-import static java.lang.Math.min;
+import static java.lang.Math.*;
 import static pl.dk.soa.service.config.Hosts.ECU_HOST;
 import static pl.dk.soa.service.config.Hosts.SENSORS_HOST;
 import static pl.dk.soa.service.device.Car.*;
