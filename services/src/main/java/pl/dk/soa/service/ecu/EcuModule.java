@@ -9,13 +9,12 @@ import pl.dk.soa.service.sensors.response.AppResponse;
 import pl.dk.soa.service.sensors.response.CtsResponse;
 import pl.dk.soa.service.sensors.response.MapResponse;
 
+import static pl.dk.soa.service.config.Hosts.SENSORS_HOST;
 import static pl.dk.soa.service.util.RangeTransformer.transformToRange;
 
 @Service
 @Getter
 class EcuModule {
-
-    static final String SENSORS_HOST = "http://localhost:8182";
 
     private final RestTemplate restTemplate;
 

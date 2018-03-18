@@ -12,7 +12,7 @@ import static org.springframework.http.HttpStatus.OK;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(path = "/pl/dk/soa/service/tcu", produces = APPLICATION_JSON_VALUE)
+@RequestMapping(path = "/tcu", produces = APPLICATION_JSON_VALUE)
 @Api(description = "transmission control unit controller")
 class TCUController {
 
