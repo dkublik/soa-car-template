@@ -1,0 +1,16 @@
+{
+  "request": {
+    "urlPath": "/library/books",
+    "method": "POST",
+    "bodyPatterns" : [
+      { "matchesJsonPath" : "$.title" },
+      { "matchesJsonPath" : "[?($.author == 'Sienkiewicz')]" }
+    ]
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status": 202
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPath": "/gps/my-coordinates",
+    "method": "GET"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{ \"lat\" : 37.4224764, \"lng\": -122.0842499 }",
+    "status": 200
+  }
+}
