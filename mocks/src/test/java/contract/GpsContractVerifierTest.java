@@ -11,12 +11,12 @@ import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.springframework.http.HttpStatus.OK;
 import static pl.dk.soa.service.Hosts.MOCK_HOST;
 
-public class GpsContractVerifierTest {
+class GpsContractVerifierTest {
 
 	static final String HOST = MOCK_HOST;
 
 	@Test
-	public void validateGps() {
+	void validateGps() {
 		// when:
 		Response response = when()
 				.get(HOST + "/gps/my-coordinates");
