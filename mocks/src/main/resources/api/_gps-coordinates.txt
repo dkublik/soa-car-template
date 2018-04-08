@@ -1,0 +1,9 @@
+-- request
+GET /gps/my-coordinates
+
+-- response
+200
+{
+    "lat" : 37.4224764,
+    "lng": -122.0842499
+}

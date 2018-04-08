@@ -1,0 +1,10 @@
+-- request
+POST /library/books
+{
+     "title" : "Pride and Prejudice",
+     "author": "Jane Austen"
+}
+
+-- response
+202
+<empty>

@@ -1,0 +1,10 @@
+-- request
+POST /ecu/engine-params
+{
+	"map": 90,
+	"cts": 60
+}
+
+-- response
+202
+<empty>

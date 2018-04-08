@@ -1,0 +1,8 @@
+-- request
+POST /ecu/acc-pedal-position
+{
+	"pedalPosition": 30
+}
+-- response
+202
+<empty>

@@ -1,0 +1,8 @@
+-- request
+GET /sensors/wss
+
+-- response
+200
+{
+	"rpm": 1200
+}

@@ -1,0 +1,8 @@
+-- request
+GET /ecu/throttle
+-- response
+200
+{
+	"level": 50
+}
+

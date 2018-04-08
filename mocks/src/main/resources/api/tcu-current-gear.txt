@@ -1,0 +1,8 @@
+-- request
+GET /tcu/current-gear
+
+-- response
+200
+{
+	"currentGear": 4
+}

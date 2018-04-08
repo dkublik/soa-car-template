@@ -1,0 +1,8 @@
+-- request
+GET /sensors/app
+
+-- response
+200
+{
+	"pedalPosition": 70
+}

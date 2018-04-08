@@ -1,0 +1,8 @@
+-- request
+GET /sensors/cts
+
+-- response
+200
+{
+	"temperature": 60
+}

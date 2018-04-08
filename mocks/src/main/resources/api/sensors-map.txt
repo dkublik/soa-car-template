@@ -1,0 +1,8 @@
+-- request
+GET /sensors/map
+
+-- response
+200
+{
+	"pressure": 90
+}

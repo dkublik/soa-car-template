@@ -1,0 +1,8 @@
+-- request
+GET /sensors/vss
+
+-- response
+200
+{
+	"speed": 120
+}

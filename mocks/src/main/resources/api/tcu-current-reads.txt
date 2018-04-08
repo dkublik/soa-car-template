@@ -1,0 +1,11 @@
+-- request
+POST /tcu/current-reads
+{
+	"vehicleSpeed": 160,
+	"rpm": 1400,
+	"throttleLevel": 70
+}
+
+-- response
+202
+<empty>
